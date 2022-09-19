@@ -10,13 +10,13 @@ G_K-6 refers to GTEA_KITCHEN-6.
 
 |              | First-person | Multi-domain | Multi-scene | Cross-site |
 |:------------:|:------------:|:------------:|:-----------:|:----------:|
-|   ADL [1]    |   &#10004;   |   &cross;    |   &cross;   |  &cross;   |
-|   GTEA [2]   |   &#10004;   |   &cross;    |   &cross;   |  &cross;   |
-| KITCHEN [3]  |   &#10004;   |   &cross;    |   &cross;   |  &cross;   |
-| EPIC-97 [4]  |   &#10004;   |   &#10004;   |   &cross;   |  &cross;   |
-|  EPIC-8 [5]  |   &#10004;   |   &#10004;   |   &cross;   |  &cross;   |
-| ADL-7 (ours) |   &#10004;   |   &#10004;   |  &#10004;   |  &cross;   |
-| G_K-6 (ours) |   &#10004;   |   &#10004;   |   &cross;   |  &#10004;  |
+|   ADL [1]    |   &check;   |   &cross;    |   &cross;   |  &cross;   |
+|   GTEA [2]   |   &check;   |   &cross;    |   &cross;   |  &cross;   |
+| KITCHEN [3]  |   &check;   |   &cross;    |   &cross;   |  &cross;   |
+| EPIC-97 [4]  |   &check;   |   &check;    |   &cross;   |  &cross;   |
+|  EPIC-8 [5]  |   &check;   |   &check;    |   &cross;   |  &cross;   |
+| ADL-7 (ours) |   &check;   |   &check;    |   &check;   |  &cross;   |
+| G_K-6 (ours) |   &check;   |   &check;    |   &cross;   |  &check;   |
 
 ## Usage
 
