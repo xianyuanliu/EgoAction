@@ -59,5 +59,3 @@ We create new annotations for all datasets in the following format. We also spli
 ]
 ```
 
-## License
-You may use the codes and files for research only, including sharing and modifying the material. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
