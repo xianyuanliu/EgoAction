@@ -83,6 +83,6 @@ def download_kitchen():
 
 
 if __name__ == "__main__":
-    # download_gtea()
+    download_gtea()
     download_kitchen()
-    # download_adl()
+    download_adl()

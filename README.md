@@ -1,18 +1,35 @@
-# EgoAction
-EgoAction is a multi-scene cross-site dataset for first-person video action recognition research through domain adaptation methods. The dataset contains 5 domains including 6716 action clips. All clips are selected from ADL, GTEA and Kitchen datasets.
+# EgoAction Dataset
+EgoAction Dataset is a multi-scene cross-site dataset for 
+first-person video action recognition research through 
+domain adaptation methods. 
+The dataset contains ADL-7 and GTEA_KITCHEN-6 with 5 domains including 6716 action clips. 
+All clips are selected from ADL, GTEA and Kitchen datasets.
+
+The table below compares the settings of our dataset to other related first-person datasets.
+G_K-6 refers to GTEA_KITCHEN-6.
+
+|              | First-person | Multi-domain | Multi-scene | Cross-site |
+|:------------:|:------------:|:------------:|:-----------:|:----------:|
+|   ADL [1]    |   &#10004;   |   &cross;    |   &cross;   |  &cross;   |
+|   GTEA [2]   |   &#10004;   |   &cross;    |   &cross;   |  &cross;   |
+| KITCHEN [3]  |   &#10004;   |   &cross;    |   &cross;   |  &cross;   |
+| EPIC-97 [4]  |   &#10004;   |   &#10004;   |   &cross;   |  &cross;   |
+|  EPIC-8 [5]  |   &#10004;   |   &#10004;   |   &cross;   |  &cross;   |
+| ADL-7 (ours) |   &#10004;   |   &#10004;   |  &#10004;   |  &cross;   |
+| G_K-6 (ours) |   &#10004;   |   &#10004;   |   &cross;   |  &#10004;  |
 
 ## Usage
 
 ### Step 1. Video Downloading
 The full dataset can be downloaded by running
 
-```python
+```
 git clone https://github.com/XianyuanLiu/EgoAction
 cd EgoAction
 python download_videos.py
 ```
 
-You can also download videos from the source websites, e.g. [ADL](https://www.csee.umbc.edu/~hpirsiav/papers/ADLdataset/), [GTEA](https://cbs.ic.gatech.edu/fpv/), and [Kitchen](http://kitchen.cs.cmu.edu/main.php).
+You can also download videos directly from the source websites if the code fails to run, i.e. [ADL](https://www.csee.umbc.edu/~hpirsiav/papers/ADLdataset/), [GTEA](https://cbs.ic.gatech.edu/fpv/), and [Kitchen](http://kitchen.cs.cmu.edu/main.php).
 
 ### Step 2. Frame Extraction
 We use [Denseflow](https://github.com/open-mmlab/denseflow) to extract RGB and optical flow frames from videos. You can follow the source instructions to install Denseflow.
@@ -59,3 +76,18 @@ We create new annotations for all datasets in the following format. We also spli
 ]
 ```
 
+## Acknowledgement
+
+This implementation is based on early works [1], [2], [3], [4] and [5]. We thank the authors for sharing their datasets.
+
+## Reference
+
+[1] H. Pirsiavash and D. Ramanan, “Detecting activities of daily living in first-person camera views,” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2012.
+
+[2] A. Fathi, X. Ren, and J. M. Rehg, “Learning to recognize objects in egocentric activities,” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2011.
+
+[3] F. de la Torre, J. K. Hodgins, J. Montano, and S. Valcarcel, “Detailed human data acquisition of kitchen activities: the CMU-multimodal activity database (CMU-MMAC),” in Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI) Workshop, 2009.
+
+[4] D. Damen, H. Doughty, G. M. Farinella, A. Furnari, E. Kazakos, J. Ma, D. Moltisanti, J. Munro, T. Perrett, W. Price et al., “Rescaling egocentric vision: Collection, pipeline and challenges for EPIC-KITCHENS-100,” International Journal of Computer Vision (IJCV), 2022.
+
+[5] J. Munro and D. Damen, “Multi-modal domain adaptation for finegrained action recognition,” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
