@@ -82,6 +82,7 @@ This implementation is based on early works [1], [2], [3], [4] and [5]. We thank
 
 ## Reference
 
+```
 [1] H. Pirsiavash and D. Ramanan, “Detecting activities of daily living in first-person camera views,” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2012.
 
 [2] A. Fathi, X. Ren, and J. M. Rehg, “Learning to recognize objects in egocentric activities,” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2011.
@@ -90,4 +91,5 @@ This implementation is based on early works [1], [2], [3], [4] and [5]. We thank
 
 [4] D. Damen, H. Doughty, G. M. Farinella, A. Furnari, E. Kazakos, J. Ma, D. Moltisanti, J. Munro, T. Perrett, W. Price et al., “Rescaling egocentric vision: Collection, pipeline and challenges for EPIC-KITCHENS-100,” International Journal of Computer Vision (IJCV), 2022.
 
-[5] J. Munro and D. Damen, “Multi-modal domain adaptation for finegrained action recognition,” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
+[5] J. Munro and D. Damen, “Multi-modal domain adaptation for fine-grained action recognition,” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
+```
